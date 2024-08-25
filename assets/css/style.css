@@ -35,7 +35,7 @@
     background-color: #3498db;
 }
 
-.ui-menu-color-download {
+.ui-menu-color-idioms {
     background-color: #525252;
 }
 
@@ -388,6 +388,25 @@ button[type="submit"] {
     margin-bottom: 20px;
     color: #fafafa;
     background-color: #e84610;
+}
+
+/* Container for the chart */
+#languageChart {
+    max-width: 600px; /* Max width for the chart */
+    margin: 0 auto; /* Centering the chart */
+}
+
+/* Additional styling for responsiveness */
+@media (max-width: 768px) {
+    #languageChart {
+        max-width: 90%; /* Adjust width for smaller screens */
+    }
+}
+
+@media (max-width: 480px) {
+    #languageChart {
+        max-width: 100%; /* Full width on very small screens */
+    }
 }
 
 /* ----------------------------------------Media Queries */
