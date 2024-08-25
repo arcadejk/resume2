@@ -48,15 +48,6 @@ const config = {
                 suggestedMax: 10
             }
         },
-        plugins: {
-            legend: {
-                position: 'top'
-            },
-            title: {
-                display: true,
-                text: 'Language Proficiency: Speaking, Writing, and Reading'
-            }
-        }
     }
 };
 
